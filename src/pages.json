@@ -1,0 +1,31 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index"
+        },
+        {
+			"path": "pages/chooselocation/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+                    "softinputMode": "adjustResize"
+				},
+                "navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "地理位置选择",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff",
+		"app-plus": {
+			"titleNView": {
+				"splitLine": {
+					"color": "#e6e6e6",
+					"height": "2rpx"
+				}
+			}
+		}
+	}
+}
