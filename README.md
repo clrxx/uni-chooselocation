@@ -1,19 +1,8 @@
-# chooselocation
-
-## Project setup
+## 项目运行
 ```
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+因为上传的整个项目，所以只需要npm即可。
 
-### Compiles and minifies for production
+Tips：需要申请相关地图的key。
 ```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
