@@ -1,7 +1,7 @@
 <template>
-	<view class="choose-location">
+	<view class="chooselocation">
         <view class="location">{{ location? JSON.stringify(location):'' }}</view>
-        <view class="choose" @click="chooseLocation">点击打开地图选择位置</view>
+        <view class="choose" @click="onChooseLocation">点击打开地图选择位置</view>
 	</view>
 </template>
 
@@ -18,7 +18,7 @@ export default {
         });
     },
     methods: {
-        chooseLocation () {
+        onChooseLocation () {
             uni.navigateTo({
                 url: '/pages/chooselocation/index'
             });
@@ -27,8 +27,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-    .choose-location {
+<style scoped>
+    .chooselocation {
         display: flex;
         flex-direction: column;
         align-items: center;
